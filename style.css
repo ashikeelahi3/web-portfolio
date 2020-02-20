@@ -25,6 +25,7 @@ h1 {
 body{
     font-family: 'Odibee Sans', cursive;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -33,4 +34,13 @@ body{
 }
 section{
     height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
 }
