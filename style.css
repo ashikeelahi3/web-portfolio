@@ -1,0 +1,36 @@
+h1 {
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+}
+.half-width{
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin: 2.5%;
+    padding: 2%;
+
+}
+.half-width img{
+    width: 100%;
+}
+.small-title{
+    font-family: 'Odibee Sans', cursive;
+}
+.hello{
+    color: crimson;
+}
+.name-highlite{
+    color: orange;
+}
+body{
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+}
