@@ -8,7 +8,7 @@ h2{
 .half-width{
     width: 40%;
     float: left;
-    margin: 2.5%;
+    margin-left: 5%;
     padding: 2%;
 }
 .half-width img{
@@ -18,6 +18,7 @@ h2{
 .paragraph-width{
     width: 70%;
     margin-left: 0;
+    color: dimgray;
 }
 
 .small-title{
@@ -29,7 +30,7 @@ h2{
 .hello{
     color: crimson;
 }
-.name-highlite{
+.orange-highlite{
     color: orange;
 }
 body{
@@ -43,7 +44,8 @@ body{
     
 }
 section{
-    height: 600px;
+    height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -65,7 +67,34 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.small-title-2{
 
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgba(245, 214, 219, 0.616);
+   
+}
 
+.padding-10px{
+    padding-left: 10px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, rgb(255, 145, 0)) ;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
